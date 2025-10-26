@@ -1,0 +1,4 @@
+AIM: 
+To draw the diagrams [use case, activity, sequence, collaboration, class, statechart,  component, deployment, package] for the Exam registration system. 
+DESCRIPTION: 
+This software is designed for the verification of the details of the candidate by the central computer. The details regarding the candidate will be provided to the central computer through the administrator and the computer will verify the details of candidate and provide approval .Then the hall ticket will be issued from the office to the candidate.
