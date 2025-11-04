@@ -1,0 +1,219 @@
+SOFTWARE PERSONNEL MANAGEMENT SYSTEM
+
+
+2	+
+AIM:
+3	+
+To draw the diagrams [ Usecase, Class, Activity, Sequence, Collaboration, State chart,
+4	+
+Deployment, Component, package] for software personnel management system.
+5	+
+SOFTWARE REQUIREMENTS SPECIFICATION:
+6	+
+7	+
+SL.NO	SOFTWARE REQUIREMENTS SPECIFICATION
+8	+
+1.0	Hardware Requirements
+9	+
+1.1	Software Requirements
+10	+
+1.2	Project description
+11	+
+1.3	Reference
+12	+
+13	+
+1.0	 HARDWARE REQUIREMENTS:
+14	+
+Intel Pentium Processor I3/I5
+15	+
+1.1	 SOFTWARE REQUIREMENTS:
+16	+
+Rational Rose/Argo UML
+17	+
+1.2	 PROJECT DESCRIPTION:
+18	+
+This software is designed for the process of knowing the details of a person works in a software company. The details are being stored in the Central Management System for the cross checking the person’s details.
+19	+
+1.3	 REFERENCES:
+20	+
+IEEE Software Requirement Specification format.
+21	+
+ 
+22	+
+23	+
+USECASE DIAGRAM:
+24	+
+This diagram will contain the actors, usecases which are:
+25	+
+ACTORS: Employee, HR, Central System
+26	+
+USECASE:	Name and address, qualification, experience, internet, loan, verification
+27	+
+CLASS DIAGRAM:
+28	+
+This diagram consists of the following classes, attributes and their operations.
+29	+
+30	+
+CLASSES	ATTRIBUTES	OPERATIONS
+31	+
+Central Management System	Employee name
+32	+
+Employee number	Tax()
+33	+
+Loan()
+34	+
+Employee1	Employee details	Leave taken()
+35	+
+HR	Check details	Loss of pay()
+36	+
+37	+
+ACTIVITY DIAGRAM:
+38	+
+This diagram will have the activities as start point, end point, decision boxes as:
+39	+
+ACTIVITIES: Enter the option to check, enter the salary, enter the working days, leave taken, loss of pay
+40	+
+DECISION BOX: Option to check
+41	+
+42	+
+SEQUENCE DIAGRAM:
+43	+
+This diagram consists of the objects, messages and return messages
+44	+
+OBJECT: Employee, HR, Central System
+45	+
+46	+
+COLLABORATION DIAGRAM:
+47	+
+This diagram contains the objects and actors. This will be obtained by the completing of the sequence diagram and pressing the F5 key
+48	+
+49	+
+STATECHART DIAGRAM:
+50	+
+It is a technique to describe the behavior of the system. It describes all the possible states that a particular object gets into the object oriented technique. State diagram are drawn for a single class to show to the lifetime behaviour of a single objects.
+51	+
+COMPONENT DIAGRAM:
+52	+
+The component diagram is represented by figure dependency and it is a graph of design of figure dependency. The component diagram's main purpose is to show the structural relationships between the components of a systems. It is represented by boxed figure. Dependencies are represented by communication association
+53	+
+54	+
+DEPLOYMENT DIAGRAM:
+55	+
+A deployment diagram in the unified modeling language serves to model the physical deployment of artifacts on deployment targets. Deployment diagrams show "the allocation of artifacts to nodes according to the Deployments defined between them. It is represented by 3- dimentional box. Dependencies are represented by communication association.
+56	+
+57	+
+58	+
+59	+
+PACKAGE DIAGRAM:
+60	+
+A package diagram in unified modeling language that depicts the dependencies between the packages that make up a model. A Package Diagram (PD) shows a grouping of elements in the OO model, and is a Cradle extension to UML. PDs can be used to show groups of classes in Class Diagrams (CDs), groups of components or processes in Component Diagrams (CPDs), or groups of processors in Deployment Diagrams (DPDs).
+61	+
+There are three types of layer. They are
+62	+
+o	User interface layer
+63	+
+o	Domain layer
+64	+
+o	Technical services layer
+65	+
+PROGRAM CODING:
+66	+
+EMPLOYEE:
+67	+
+Public class employee
+68	+
+{
+69	+
+Public integer employee details; Public integer salary;
+70	+
+Public void leave taken()
+71	+
+{
+72	+
+}
+73	+
+Public void employee()
+74	+
+{
+75	+
+}
+76	+
+}
+77	+
+ 
+78	+
+HUMAN RESOURCES:
+79	+
+Public class HR
+80	+
+{
+81	+
+Public integer check details; Public void loss of pay()
+82	+
+{
+83	+
+}
+84	+
+Public void tax()
+85	+
+{
+86	+
+}
+87	+
+88	+
+89	+
+Public void HR()
+90	+
+{
+91	+
+}
+92	+
+}
+93	+
+94	+
+95	+
+CENTRAL MANAGEMENT SYSTEM:
+96	+
+Public class central management system
+97	+
+{
+98	+
+Public integer employee name; Public integer employee no;
+99	+
+Public integer details;
+100	+
+Public void leave taken()
+101	+
+{
+102	+
+}
+103	+
+ 
+104	+
+Public void tax()
+105	+
+{
+106	+
+}
+107	+
+Public void loan()
+108	+
+{
+109	+
+}
+110	+
+Public void salary()
+111	+
+{
+112	+
+}
+113	+
+}
+114	+
+ 
+115	+
+116	+
+117	+
+RESULT:
+118	+
+Thus the diagram [ usecase, class, activity, sequence, collaboration, state chart, component, deployment, package] for the Software Personnel Management System has been designed, executed and output is verified.
